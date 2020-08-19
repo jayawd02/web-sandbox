@@ -21,7 +21,7 @@ class Genre(models.Model):
         return f'Genre: {self.name}'
 
 
-class Action(models.Model):
+class Actor(models.Model):
     name = models.CharField(max_length=256)
 
 
