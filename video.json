@@ -1,0 +1,1 @@
+[{"model": "app.video", "pk": 1, "fields": {"title": "Avengers end game", "duration": 180, "description": "Avengers end game", "picture": "", "category": 1, "create_at": "2020-08-03T08:07:13Z", "genre": [1]}}]

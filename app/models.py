@@ -24,6 +24,8 @@ class Genre(models.Model):
 class Actor(models.Model):
     name = models.CharField(max_length=256)
 
+    def __str__(self):
+        return f'Actor: {self.name}'
 
 class Category(models.Model):
     name = models.CharField(max_length=256)
