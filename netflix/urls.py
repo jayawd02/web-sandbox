@@ -18,6 +18,9 @@ from django.urls import path
 from app import views  # New
 
 urlpatterns = [
-    path('', views.index),  # New
+    path('', views.index, name='index'),  # New
+    path('search',views.search, name='search'),
+    path('videos',views.VideoListView.as_view(), name='videos-list'),
+    #path('video/<pk:int>',views.VideoDetailView.as_view(), name='videos-detail'),
     path('admin/', admin.site.urls),
 ]
